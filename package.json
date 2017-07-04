@@ -1,0 +1,28 @@
+{
+  "name": "loganalytics",
+  "version": "1.0.0",
+  "description": "Get analytics from DB source where the logs are inserted",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturogalan/logAnalytics.git"
+  },
+  "author": "AGB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturogalan/logAnalytics/issues"
+  },
+  "homepage": "https://github.com/arturogalan/logAnalytics#readme",
+  "dependencies": {
+    "pg": "6.4.0",
+    "lodash": "^4.17.4",
+    "winston": "2.3.1",
+    "moment": "^2.10.3",
+    "moment-timezone": "^0.4.0",
+    "node-schedule": "1.2.0"
+  }
+}

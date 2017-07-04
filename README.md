@@ -24,5 +24,5 @@ Start app with:
 
 
 
-NOTE: To log into the console change the transport class in modules/logger.js    
+NOTE: To log into the console or in file, change the desired transport class in modules/logger.js    
 NOTE: For testing purposes cron is set to EVERY MINUTES        

@@ -9,8 +9,8 @@ function configureLogger() {
     winston.configure({
         level: config.level,
         transports: [
-            // new (winston.transports.Console)
-            new (winston.transports.File)({ filename: config.fileName })
+            new (winston.transports.Console)
+            // new (winston.transports.File)({ filename: config.fileName })
         ]
     });
     return winston;
